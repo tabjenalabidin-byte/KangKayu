@@ -1,4 +1,4 @@
-⁷name: Build KangKayu APK
+name: Build KangKayu APK
 
 on:
   workflow_dispatch:
