@@ -1,4 +1,4 @@
-name: Build KangKayu APK
+⁷name: Build KangKayu APK
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o KangKayu_Android_GitHub.zip -d android-project
+          unzip -o KangKayu_Android_GitHub_FIXED.zip -d android-project
 
       - name: Setup Java
         uses: actions/setup-java@v4
